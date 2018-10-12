@@ -8,7 +8,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn install package'
-                sh 'latihan 66'
             }
         }
         stage('Test') {
